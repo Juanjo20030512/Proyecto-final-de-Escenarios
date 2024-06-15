@@ -60,16 +60,26 @@ Por medio de este código se puede visualizar toda la información de la base de
 
 Con la función “STR” se puede visualizar todas las variables que contiene nuestra base de datos que estamos analizando.
 
-La función “HEAD” muestra las primeras 5 variables que se tienen en la base de datos como se muestra en la siguiente imagen: 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/2d6074e4-16cc-4b43-af06-317cee7fd9da)
+
+La función “HEAD” muestra las primeras 5 variables que se tienen en la base de datos como se muestra en la siguiente imagen:
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/fcb2a1ad-9aa7-4260-b0e2-4877ef3fe19a)
 
 La función “TAIL” nos muestra las ultimas variables de la base de datos.
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/fc9ada4b-1ff3-4e4c-82ac-90419d62da0f)
+
 La función “summary” nos muestra el resumen de todas variables de nuestra base de datos.
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/8007eb4b-cf40-4cf9-b6be-52cb65071e3d)
  
 Lo interesante de la función “attach” es que nos permite ver el resumen especifico de la columna que deseamos revisar lo que nos da una proyección de análisis más limpia. Por ejemplo: con la función “summary() más la columna que deseamos analizar “cliente” nos da el resumen detallado como se muestra en la siguiente imagen: 
 
-Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-    1.0   990.8 1992.0 1998.6 3000.0 4000.0
+Min. 1st Qu.  Median  Mean    3rd Qu.  Max. 
+1.0   990.8   1992.0   1998.6 3000.0 4000.0
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/aa588368-147b-482d-a190-f7291c98ca69)
 
 Con el comando “summary” sucesivamente se puede ir analizando las columnas que se deseen, para que analice un campo en específico lo cual resulta como beneficio para el análisis que se requiera, podemos usar los siguientes comandos, por ejemplo: 
 
@@ -82,28 +92,38 @@ Con el comando “summary” sucesivamente se puede ir analizando las columnas q
 •	sd(wage)
 
 C.	VISUALIZACIÓN DE DATOS
-Con la función “hist (columna x, freq = FALSE)” se puede analizar el histograma de los datos en validación para determinar la toma de decisiones de forma efectiva. 
+Con la función “hist (columna x, freq = FALSE)” se puede analizar el histograma de los datos en validación para determinar la toma de decisiones de forma efectiva.
 
-La función “hist(log(columna x), freq = FALSE)” permite agrupar la gráfica de la siguiente forma lo cual resulta de beneficio para el análisis en gestión. 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/4c97f94d-831e-48f0-b2f8-f7d40c12fe2d)
+
+La función “hist(log(columna x), freq = FALSE)” permite agrupar la gráfica de la siguiente forma lo cual resulta de beneficio para el análisis en gestión.
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/944ba56e-53e7-4c98-8b8d-e65636df2131)
 
 Con la función “lines (density (log (Columna x)), col = 4)” se puede agregar líneas en la gráfica lo que resulta relevante para el análisis de datos, como se muestra a continuación:
 
 •	lines(density(log(columna x)), col = 3)
 •	lines(density(log(columna x)), col = 2)
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/972ebac1-eb57-42cb-bfa5-8ec27fe2ee38)
+
 Variables Categóricas
 
-Para determinar variables categóricas se usa el comando “summary (columna x)” según la columna que se necesita analizar para graficar los campos en análisis. 
+Para determinar variables categóricas se usa el comando “summary (columna x)” según la columna que se necesita analizar para graficar los campos en análisis.
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/0692b398-4d72-4a38-b633-2af2bcc44e76)
 
 D.	CIENCIA DE DATOS
 1.	REGRECIÓN LINEAL
- 
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/d52c624b-5a49-437b-9ff8-4746c1272a68)
+
 Interpretación de los Coeficientes
 1.	Intercept (Intercepto):
 o	Estimate: 1832.89
 o	Esto indica el valor esperado de Cliente cuando todas las variables independientes son cero.
 o	Significancia: Muy significativa (p < 0.001).
-2.	Auto:
+2.	Auto: 
 o	Estimate: -0.0026
 o	El coeficiente sugiere que por cada unidad adicional en Auto, Cliente disminuye en 0.0026 unidades.
 o	Significancia: No significativa (p = 0.992).
@@ -144,11 +164,15 @@ install.packages("dplyr")
 install.packages("stringr")
 install.packages("tidyverse")
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/8282f554-ac0a-4e03-8533-7f023c8784c9)
+
 library(rvest)
 library(dplyr)
 library(stringr)
 library(tidyverse)
- 
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/035cda1d-5654-4569-8b10-6e1f87904af1)
+
 2.	Leer una página web:
 Luego se utiliza la función `read_html()` para leer el contenido de una página web. En este ejemplo, se usará la página de Wikipedia sobre el lenguaje de programación R.
 
@@ -159,12 +183,19 @@ webpage <- read_html(url)
 
 Quedando de la siguiente manera:
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/735c74ec-f0dc-49a7-8c4b-79c9b36e5baa)
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/1700b302-0980-40ae-bdbd-a215a72fe374)
+
 3.	Extraer datos específicos
 Luego extraemos datos específicos de la página web. En este caso, queremos obtener los párrafos ocho, veinticuatro y cuarenta de la sección principal y la tabla de información (infobox) sobre el lenguaje R.
 
 Para saber cuántos párrafos tiene la página web de donde se está sacando la información se puede utilizar el siguiente código:
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/0f51e6ec-228c-48d2-9252-1e87669aa0a7)
  
 Dando como resultado lo siguiente:
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/9cebbbeb-187c-4a9d-be67-0ae623560950)
 
 Este código se puede utilizar siempre para saber cuántos párrafos va tener la página web de donde se esté sacando la información y cómo podemos observar esta página cuenta con 91 párrafos.
 
@@ -175,6 +206,8 @@ Eight_paragraph <- webpage %>%
   html_text()
 
 print(Eight_paragraph)
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/57cc68b4-f1ca-4dbe-8c56-538198102879)
 
 Luego se tiene la opción de ir a extraer la tabla de información (infobox)
 
@@ -187,6 +220,8 @@ infobox <- webpage %>%
   html_table()
 print(infobox)
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/a5e06219-bdf3-4f63-a2ac-d24cb404d7af)
+
 4.	Limpiar y estructurar los datos:
 Después de extraer los datos, a menudo es necesario limpiarlos y estructurarlos adecuadamente para su análisis.
 
@@ -197,6 +232,8 @@ El código a utilizar será el siguiente:
 Eight_paragraph_clean <- str_trim(Eight_paragraph)
 print(Eight_paragraph_clean)
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/44aa9636-345b-4a60-855e-a87317499832)
+
 Luego podemos limpiar y estructurar la tabla de información, donde las tablas pueden requerir limpieza adicional, como renombrar columnas y filtrar filas innecesarias. Utilizamos funciones de `dplyr` para este propósito.
 
 El código para limpiar y estructurar la tabla de información es el siguiente:
@@ -205,6 +242,8 @@ infobox_clean <- infobox %>%
   rename(Attribute = 1, Value = 2) %>%
   filter(!is.na(Attribute))
 print(infobox_clean)
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/07d70d4f-016c-4c17-87c2-3c5840fb4180)
 
 5.	 Análisis de Datos
 
@@ -220,6 +259,8 @@ print(infobox_clean)
 
 Donde quedará de la siguiente forma:
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/cab6c23a-aae8-47af-a5ae-92bf6fc819bf)
+
 Luego se realizó el cálculo de las medidas de resumen estadístico, donde utilizamos `summarise()` de `dplyr` para calcular medidas como la media, mediana, desviación estándar, entre otros.
 
 summary_stats <- infobox_clean %>%
@@ -234,6 +275,8 @@ print(summary_stats)
 
 Donde nos mostrará el siguiente resultado:
 
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/01b59cfc-04ea-418b-82fc-5f23f78f0cec)
+
 6.	Guardar los datos y resultados del análisis
 Finalmente, guardamos los datos extraídos y los resultados del análisis en archivos CSV para su uso posterior.
 El primer código nos servirá para poder guardar cada uno de los parrafos en un archivo de texto:
@@ -247,6 +290,10 @@ write.csv(infobox_clean, 'infobox_R.csv', row.names = FALSE)
 Y el tercer código nos servirá para guardar las medidas de resumen estádistico en archivo CSV (Excel)
 
 write.csv(summary_stats, 'summary_stats.csv', row.names = FALSE)
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/81f893bf-4340-419d-8e3d-b55b4ce397e7)
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/8c332560-6b18-425e-81ff-41e6d4d4b52d)
 
 CONCLUSIONES
 El uso de RStudio en el procesamiento y análisis de datos abarca desde la limpieza y transformación de datos hasta la visualización, ciencia e ingeniería de datos. Esta herramienta integral proporciona un entorno robusto y flexible que facilita el desarrollo y la implementación de cada uno de estos componentes clave. Al aprovechar las capacidades avanzadas de RStudio, las organizaciones pueden transformar datos crudos en información valiosa y accionable, lo que impulsa decisiones estratégicas fundamentadas en datos.
