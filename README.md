@@ -18,18 +18,18 @@ Brayan Alexander Garcia Hernandez	290-09-450
 
 Fecha: Guatemala, 15 de marzo de 2024
 
-ÍNDICE
-INTRODUCCIÓN
-DESARROLLO
-A.	LIMPIEZA Y TRANSFORMACIÓN DE DATOS
-B.	ANALISIS DE DATOS
-C.	VISUALIZACIÓN DE DATOS
-D.	CIENCIA DE DATOS
-Interpretación de los Coeficientes
-Estadísticas del Modelo
-E.	INGENIERIA DE DATOS
-CONCLUSIONES
-RECOMENDACIONES
+1. ÍNDICE
+2. INTRODUCCIÓN
+3. DESARROLLO
+4. A.	LIMPIEZA Y TRANSFORMACIÓN DE DATOS
+5. B.	ANALISIS DE DATOS
+6. C.	VISUALIZACIÓN DE DATOS
+7. D.	CIENCIA DE DATOS
+8. Interpretación de los Coeficientes
+9. Estadísticas del Modelo
+10. E.	INGENIERIA DE DATOS
+11. CONCLUSIONES
+12. RECOMENDACIONES
 
 INTRODUCCIÓN
 El procesamiento y análisis de grandes volúmenes de datos es una tarea compleja y multifacética que abarca varias disciplinas esenciales para extraer información valiosa de datos en bruto. En este contexto, el uso de RStudio, una herramienta poderosa y flexible para análisis de datos y programación estadística, resulta fundamental. RStudio proporciona un entorno integrado que facilita el desarrollo de cada uno de los componentes clave en el flujo de trabajo de datos.
