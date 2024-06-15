@@ -255,5 +255,7 @@ El análisis y la visualización de datos son cruciales para interpretar y comun
 
 RECOMENDACIONES
 Es crucial que las organizaciones implementen procedimientos automatizados en RStudio para la limpieza de datos, lo que no solo ahorra tiempo sino que también reduce los errores humanos y mejora la consistencia y precisión de los datos procesados. La automatización puede incluir el uso de scripts y funciones integradas que simplifican y estandarizan las tareas repetitivas, permitiendo a los analistas centrarse en aspectos más complejos del análisis de datos.
+
 Es esencial que las organizaciones capaciten continuamente a sus analistas y científicos de datos en las últimas técnicas y herramientas de análisis y visualización disponibles en RStudio. La actualización constante de habilidades asegura que el equipo pueda utilizar plenamente las capacidades avanzadas de la herramienta, mejorando la eficiencia y la calidad de los análisis y visualizaciones producidas. La capacitación puede incluir talleres, cursos en línea y conferencias especializadas.
+
 Para asegurar la escalabilidad y adaptabilidad de sus sistemas de datos, las organizaciones deben adoptar una arquitectura escalable que pueda manejar volúmenes crecientes de datos utilizando herramientas compatibles con RStudio. Esto implica diseñar infraestructuras flexibles que puedan crecer junto con las necesidades de la empresa, garantizando así la continuidad y eficiencia operativa a largo plazo. La integración de tecnologías como Hadoop y Spark puede ser beneficiosa en este contexto.
