@@ -52,7 +52,9 @@ Para inspeccionar la observación número 64, nos muestra en el marco de datos.
 
 B.	ANALISIS DE DATOS
 La base de datps utilizada esta denominada como “data(proyecto_final)”.
-Con esta función podemos verificar la impresión de nuestra tabla para poder revisar los datos que vamos analizar y poder entender que es lo que necesitamos analizar. 
+Con esta función podemos verificar la impresión de nuestra tabla para poder revisar los datos que vamos analizar y poder entender que es lo que necesitamos analizar.
+
+![image](https://github.com/Juanjo20030512/Proyecto-final-de-Escenarios/assets/172561495/6194b408-dd2d-480e-8b17-2f86268dfeb0)
 
 Por medio de este código se puede visualizar toda la información de la base de datos para poder analizar la información que necesitamos desarrollar.
 
